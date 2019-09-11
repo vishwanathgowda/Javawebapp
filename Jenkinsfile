@@ -25,5 +25,5 @@ Pipeline
     QAdeploymentRepo_name     = 'qa-deployment'
     QAansiblePlaybookfileName = 'qaDeployment.yml'
 	QAansibleInventory_FileName = 'qaInventory.yml'
-	QAdeploymentRepo_Path       = '612851823/qa-deployment'
+	QAdeploymentRepo_Path       = '612851823/qa-deployment.git'
 }
