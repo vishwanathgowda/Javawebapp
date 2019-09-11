@@ -96,7 +96,7 @@
 
 
 	   <plugin>
-        <!-- Unit tests are run by surefire. -->
+        <!-- Unit tests are run by surefires. -->
         <!-- Classes under src/test/java called *Test are included automatically. -->
         <!-- Unit tests are run during the test phase. -->
         <groupId>org.apache.maven.plugins</groupId>
