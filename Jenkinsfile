@@ -19,4 +19,7 @@ Pipeline
     ansibleInventory_FileName = 'devInventory.yml'
     deploymentRepo_Path       = '612848076/teg.git'
     application_Name          = 'SimpleWebApplication'
+    reportDir                 = 'target/jacoco-ut/'
+    reportFiles               = 'index.html'
+    reportName                = 'TestCase HTML Reports'
 }
