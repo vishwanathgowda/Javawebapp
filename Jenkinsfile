@@ -22,8 +22,8 @@ Pipeline
     reportDir                 = 'target/jacoco-ut/'
     reportFiles               = 'index.html'
     reportName                = 'JavaWebapp TestCase HTML Reports'
-    QAdeploymentRepo_name     = '612851823/qa-deployment'
+    QAdeploymentRepo_name     = 'qa-deployment'
     QAansiblePlaybookfileName = 'qaDeployment.yml'
 	QAansibleInventory_FileName = 'qaInventory.yml'
-	QAdeploymentRepo_Path       = 'qa-deployment'
+	QAdeploymentRepo_Path       = '612851823/qa-deployment'
 }
