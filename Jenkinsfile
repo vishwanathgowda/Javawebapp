@@ -6,7 +6,7 @@ Pipeline
     reportDir            = 'target/jacoco-ut/'
     reportFiles          = 'index.html'
     reportName           = 'TestCase HTML Reports'
-    buildNode            = 'slave1'
+    buildNode            = 'Ansible-server'
     sonarProjectName     = 'java-sonar-poc'
     sonarProjectKey      = 'java-sonar-poc'
     sonarProjectVersion  = '1.0'
