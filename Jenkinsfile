@@ -1,4 +1,4 @@
-@Library(['devops-dsl@demo']) _
+@Library(['devops-dsl@Test']) _
 Pipeline
 {
     applicationName      = 'new-application'
