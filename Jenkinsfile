@@ -17,7 +17,7 @@ Pipeline
     deploymentRepo_name       = 'teg'
     ansiblePlaybookfileName   = 'devDeployment.yml'
     ansibleInventory_FileName = 'devInventory.yml'
-    deploymentRepo_Path       = '612848076/teg.git'
+    deploymentRepo_Path       = 'APP15401/dev-deployment.git'
     application_Name          = 'SimpleWebApplication'
     reportDir                 = 'target/jacoco-ut/'
     reportFiles               = 'index.html'
@@ -25,5 +25,5 @@ Pipeline
     QAdeploymentRepo_name     = 'qa-deployment'
     QAansiblePlaybookfileName = 'qaDeployment.yml'
 	QAansibleInventory_FileName = 'qaInventory.yml'
-	QAdeploymentRepo_Path       = '612851823/qa-deployment.git'
+	QAdeploymentRepo_Path       = 'APP15401/qa-deployment.git'
 }
