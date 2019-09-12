@@ -14,7 +14,7 @@ Pipeline
     sonarSources         = 'src'
     executeSonar         = 'YES'
     emailRecipientsList  = 'vinay.kumarm@bt.com,swaroopsagar.gaduputi@bt.com'
-    deploymentRepo_name       = 'teg'
+    deploymentRepo_name       = 'dev-deployment'
     ansiblePlaybookfileName   = 'devDeployment.yml'
     ansibleInventory_FileName = 'devInventory.yml'
     deploymentRepo_Path       = 'APP15401/dev-deployment.git'
