@@ -179,7 +179,7 @@
                         <div id="edit1" class="libres" data-chars="65">
                             <p><span
                                     style="color: #FFFFFF; font-family: 'Open Sans', sans-serif; font-size: 48px; font-weight: normal; line-height: 52px;">Book
-                                    This Limited Time Edition Merc Now and Get a Discount of 90%</span></p>
+                                    This Limited Time Edition Merc Now and Get a Discount of 50%</span></p>
                         </div>
                     </div>
                     <div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
