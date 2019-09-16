@@ -11,7 +11,7 @@ Pipeline
     sonarProjectKey      = 'java-sonar-poc'
     sonarProjectVersion  = '1.0'
     sonarProjectLanguage = 'java'
-    sonarSources         = 'src/main'
+    sonarSources         = 'src/main/java'
     executeSonar         = 'YES'
     emailRecipientsList  = 'vinay.kumarm@bt.com,swaroopsagar.gaduputi@bt.com'
     deploymentRepo_name       = 'dev-deployment'
