@@ -26,5 +26,5 @@ Pipeline
     QAansiblePlaybookfileName   = 'qaDeployment.yml'
 	QAansibleInventory_FileName = 'qaInventory.yml'
 	QAdeploymentRepo_Path       = 'APP15401/qa-deployment.git'
-	qa-approvers                = 'vinay.kumarm@bt.com'
+	qaApproversList             = 'vinay.kumarm@bt.com'
 }
