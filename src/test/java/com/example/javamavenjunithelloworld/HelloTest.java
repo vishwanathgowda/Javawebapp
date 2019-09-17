@@ -57,7 +57,7 @@ public class HelloTest {
     public void testIllegalArgumentForHelloNegative() {
         Hello hi = new Hello();
         assertThrows(IllegalArgumentException.class, () -> hi.setTimes(-1));
-    }
+    }  
     @Test
     public void testingSendback()
     {
@@ -73,6 +73,5 @@ public class HelloTest {
 	Hello hi = new Hello();
 	System.out.println("Adding unit test case");
         assertEquals(12, hi.addResult(8,4));
-    }
-    
+    }      
 }
