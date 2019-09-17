@@ -179,7 +179,7 @@
                         <div id="edit1" class="libres" data-chars="65">
                             <p><span
                                     style="color: #FFFFFF; font-family: 'Open Sans', sans-serif; font-size: 48px; font-weight: normal; line-height: 52px;">Book
-                                    This Limited Time Edition Merc Now and Get a Discount of 25%</span></p>
+                                    This Limited Time Edition Merc Now and Get a Discount of 50%</span></p>
                         </div>
                     </div>
                     <div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
@@ -251,7 +251,7 @@
                         <div id="edit1" class="libres" data-chars="24">
                             <p><span
                                     style="color: rgb(251, 176, 52); font-family: 'Open Sans', sans-serif; font-size: 22px; font-weight: bold; line-height: 30px;">&nbsp;JUST
-                                    PAY COOL PRICE $300 PER MONTH</span></p>
+                                    PAY COOL PRICE $500 PER MONTH</span></p>
                         </div>
                     </div>
                     <div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"

@@ -3,15 +3,16 @@ package com.example.javamavenjunithelloworld;
 
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
-
 import java.io.ByteArrayOutputStream;
 import java.io.OutputStream;
 import java.io.PrintStream;
-
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
+//import org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+//import static org.junit.Assert.*;
 
 
 /**
@@ -57,4 +58,23 @@ public class HelloTest {
         Hello hi = new Hello();
         assertThrows(IllegalArgumentException.class, () -> hi.setTimes(-1));
     }
+    @Test
+    public void testingSendback()
+    {
+ 	Hello hi = new Hello();
+        System.out.println("Adding unit test case");
+        String expect = "devops";
+        String actual = hi.sendback("devops");
+	assertEquals(expect, actual);
+    }
+    @Test
+    public void testingAddTest()
+    {
+	Hello hi = new Hello();
+	System.out.println("Adding unit test case");
+        assertEquals(12, hi.addResult(8,4));
+    }
+
+    
+
 }
