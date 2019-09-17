@@ -74,7 +74,5 @@ public class HelloTest {
 	System.out.println("Adding unit test case");
         assertEquals(12, hi.addResult(8,4));
     }
-
     
-
 }
