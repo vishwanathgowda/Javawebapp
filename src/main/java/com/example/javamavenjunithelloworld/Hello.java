@@ -39,5 +39,15 @@ public class Hello {
             printer.println(HELLO);
         }
     }
-
+    public String sendback(String word)
+    {
+	    printf("Printing given word %s", word);
+	    return word;
+	    
+    }
+    public int addResult(int a, int b)
+    {
+	    int c = a + b;
+	    return c
+    }
 }
