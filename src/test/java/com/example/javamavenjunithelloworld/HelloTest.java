@@ -58,5 +58,21 @@ public class HelloTest {
         Hello hi = new Hello();
         assertThrows(IllegalArgumentException.class, () -> hi.setTimes(-1));
     }
+    @Test
+    public void testingSendback()
+    {
+ 	Hello hi = new Hello();
+        System.out.println("Adding unit test case");
+        String expect = "devops";
+        String actual = hi.sendback("devops");
+	assertEquals(expect, actual);
+    }
+    @Test
+    public void testingAddTest()
+    {
+	Hello hi = new Hello();
+	System.out.println("Adding unit test case");
+        assertEquals(12, hi.addResult(8,4));
+    }
     
 }
