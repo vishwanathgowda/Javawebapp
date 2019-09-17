@@ -41,7 +41,7 @@ public class Hello {
     }
     public String sendback(String word)
     {
-	    printf("Printing given word %s", word);
+	    System.out.printf("Printing given word %s", word);
 	    return word;
 	    
     }
