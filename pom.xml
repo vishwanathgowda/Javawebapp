@@ -4,7 +4,7 @@
   <groupId>com.maven.bt</groupId>
   <artifactId>SimpleWebApplication</artifactId>
   <packaging>war</packaging>
-  <version>5.0.0</version>
+  <version>5.0.1</version>
   <name>SimpleWebApplication Maven Webapp</name>
   <url>http://maven.apache.org</url>
 
