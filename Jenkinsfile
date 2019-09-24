@@ -1,4 +1,4 @@
-@Library(['devops-dsl@SonarSSL']) _
+@Library(['devops-dsl@Demo2']) _
 Pipeline
 {
     applicationName             = 'new-application'
