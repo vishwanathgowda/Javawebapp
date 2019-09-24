@@ -1,4 +1,4 @@
-@Library(['devops-dsl@Demo2']) _
+@Library(['devops-dsl@SonarSSL']) _
 Pipeline
 {
     applicationName             = 'new-application'
@@ -6,7 +6,7 @@ Pipeline
     reportDir                   = 'target/jacoco-ut/'
     reportFiles                 = 'index.html'
     reportName                  = 'TestCase HTML Reports'
-    buildNode                   = 'Docker'
+    buildNode                   = 'slave1'
     sonarProjectName            = 'java-sonar-poc'
     sonarProjectKey             = 'java-sonar-poc'
     sonarProjectVersion         = '1.0'
