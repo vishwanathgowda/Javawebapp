@@ -79,7 +79,7 @@
                             <div class="diy-img-wrapper img-align-left">
                                 <div class="diy-img-wrapper-content ui-resizable"
                                     style="width: 188px; top: -9px; left: -17px;"><img class="img-responsive"
-                                        src="https://sunnylandingpages.com/upload/368/pictures/368_20160511_045919.png"
+                                        src="https://i.dlpng.com/static/png/286642_preview.png"
                                         alt="">
                                     <div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
                                         style="z-index: 90; display: none;"></div>
