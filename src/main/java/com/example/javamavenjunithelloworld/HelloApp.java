@@ -38,5 +38,15 @@ public class HelloApp {
         }
         hi.sayHello(System.out);
     }
-
+public String sendback(String word)
+    {
+	    System.out.printf("Printing given word %s", word);
+	    return word;
+	    
+    }
+    public int addResult(int a, int b)
+    {
+	    int c = a + b;
+	    return c;
+    }
 }
