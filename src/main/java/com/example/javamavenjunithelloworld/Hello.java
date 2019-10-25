@@ -39,7 +39,6 @@ public class Hello {
             printer.println(HELLO);
         }
     }
-    /*
     public String sendback(String word)
     {
 	    System.out.printf("Printing given word %s", word);
@@ -51,7 +50,5 @@ public class Hello {
 	    int c = a + b;
 	    return c;
     }
-	*/
-
 	
 }
