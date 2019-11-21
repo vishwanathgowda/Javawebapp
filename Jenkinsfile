@@ -2,7 +2,7 @@
 Pipeline
 {
     applicationName             = 'new-application'
-    mvnGoals                    = 'clean deploy'
+    mvnGoals                    = 'clean install'
     reportDir                   = 'target/jacoco-ut/'
     reportFiles                 = 'index.html'
     reportName                  = 'TestCase HTML Reports'
