@@ -1,4 +1,4 @@
-@Library(['devops-dsl@Demo2']) _
+@Library(['devops-dsl@cloudbees-check']) _
 Pipeline
 {
     applicationName             = 'new-application'
