@@ -12,6 +12,7 @@ Pipeline
     sonarProjectVersion         = '1.0'
     sonarProjectLanguage        = 'java'
     sonarSources                = 'src/main/java'
+    nexus_AppName               = 'APP15401'
     executeSonar                = 'YES'
     emailRecipientsList         = 'vinay.kumarm@bt.com,swaroopsagar.gaduputi@bt.com'
     deploymentRepo_name         = 'dev-deployment'
