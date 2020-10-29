@@ -6,7 +6,7 @@ Pipeline
     reportDir                   = 'target/jacoco-ut/'
     reportFiles                 = 'index.html'
     reportName                  = 'TestCase HTML Reports'
-    buildNode                   = 'EED_ROBT_DOCKER'
+    buildNode                   = 'sonar-scanner'
     sonarProjectName            = 'java-sonar-poc'
     sonarProjectKey             = 'java-sonar-poc'
     sonarProjectVersion         = '1.0'
