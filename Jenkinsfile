@@ -38,14 +38,14 @@ pipeline {
            }
         }
         
-       /* stage('Code Quality Check (Sonarqube)')
+        stage('Code Quality Check (Sonarqube)')
         {
           steps
           {
              script
              {
                def sonarscanner = tool 'sonar_scanner'
-               withSonarQubeEnv(credentialsId: '0a89166b-802d-44f9-9d0b-259358ef079b') {
+               withSonarQubeEnv(credentialsId: 'sonarqube') {
                
                     // some block
                     sh """
@@ -55,7 +55,7 @@ pipeline {
                 }
              }
           }
-        }*/
+        }
         
        /* stage('Quality gate') {
 
