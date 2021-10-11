@@ -45,7 +45,7 @@ pipeline {
                 projectName = 'Javawebapp'
                 projectVersion = '1.1'
                 sonarSources = 'src'
-                //sonarExclusions = ''//
+                //sonarExclusions = ''
                 sonarLanguage = 'java'
                 sonarBinaries = 'target/classes'
                 sonarCoverageformat = '-Dsonar.coverage.jacoco.xmlReportPaths'
@@ -73,7 +73,7 @@ pipeline {
                         -Dsonar.c.file.suffixes=- \
                         -Dsonar.cpp.file.suffixes=- \
                         -Dsonar.objc.file.suffixes=- \
-                        -Dsonar.sourceEncoding=${sonarSourceEncoding} \
+                        -Dsonar.sourceEncoding=${sonarSourceEncoding} 
                       #  -Dsonar.sonar.coverage.exclusions=${coverageExclusions} 
                 
                     """
