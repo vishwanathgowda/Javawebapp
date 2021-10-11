@@ -40,6 +40,11 @@ pipeline {
         
         stage('Code Quality Check (Sonarqube)')
         {
+            environment { 
+                projectKey = 'Javawebapp'
+                projectName = 'Javawebapp'
+                projectVersion = '1.1'
+            }
           steps
           {
              script
@@ -49,7 +54,9 @@ pipeline {
                
                     // some block
                     sh """
-                    ${sonarscanner}/bin/sonar-scanner
+                    ${sonarscanner}/bin/sonar-scanner -Dsonar.projectKey=${projectKey} \
+                        -Dsonar.projectName=${projectName} \
+                        -Dsonar.projectVersion=${projectVersion}
                 
                     """
                 }
