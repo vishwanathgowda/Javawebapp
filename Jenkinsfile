@@ -45,7 +45,7 @@ pipeline {
              script
              {
                def sonarscanner = tool 'sonar_scanner'
-               withSonarQubeEnv(credentialsId: 'sonarqube') {
+               withSonarQubeEnv('sonarqube') {
                
                     // some block
                     sh """
