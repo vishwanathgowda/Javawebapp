@@ -6,11 +6,16 @@ pipeline {
 
     // global env variables
 
-   /* environment {
+    environment {
 
-        EMAIL_RECIPIENTS = 'akshay.kg@bt.com'
+        pom = readMavenPom file: "pom.xml"
+                appVersion = "pom.version"
+                appPomGroupID =  "pom.groupId"
+                appGroupID = "appPomGroupID.toString().replace('.', '/')"
+                appName = "readMavenPom().getArtifactId()"
 
-    }*/
+
+    }
     
     stages {
         
