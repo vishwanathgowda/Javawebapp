@@ -69,11 +69,11 @@
    <distributionManagement>
     <snapshotRepository>
       <id>nexus-snapshots</id>
-      <url>https://agile.nat.bt.com/nexus/repository/EED_Engg-Excellence-Devops-POC_maven_snapshots/</url>
+      <url>http://13.232.1.52:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
     <repository>
       <id>nexus-releases</id>
-      <url>https://agile.nat.bt.com/nexus/repository/EED_Engg-Excellence-Devops-POC_maven_releases/</url>
+      <url>http://13.232.1.52:8081/repository/maven-releases/</url>
     </repository>
   </distributionManagement>
 
