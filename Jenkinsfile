@@ -86,7 +86,7 @@ pipeline {
           }
         }
         
-      /*  stage('Quality gate') {
+        stage('Quality gate') {
 
             steps {
 
@@ -112,7 +112,7 @@ pipeline {
 
             }
 
-        }*/
+        }
 
        stage('Upload to Nexus') {
             steps {
