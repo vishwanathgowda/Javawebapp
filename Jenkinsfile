@@ -86,7 +86,7 @@ pipeline {
           }
         }
         
-        stage('Quality gate') {
+      /*  stage('Quality gate') {
 
             steps {
 
